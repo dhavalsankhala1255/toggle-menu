@@ -66,3 +66,8 @@
         $(this).toggleClass("on");
         $(".navbar").slideToggle();
     });
+    
+    $(".menu-toggle").click(function() {
+         $(this).toggleClass("on");
+         $(".navbar>ul").slideToggle();
+     });
